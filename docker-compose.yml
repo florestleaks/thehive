@@ -15,7 +15,7 @@ services:
 
   thehive:
     container_name: thehive
-    image: 'strangebee/thehive:5.2'
+    image: 'strangebee/thehive:5.3'
     restart: unless-stopped
     depends_on:
       - cassandra
